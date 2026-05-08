@@ -2,7 +2,7 @@
 
 A powerful Bash-based automation script designed to provision a fully functional **LEMP Stack** (Linux, Nginx, MySQL, PHP) on Ubuntu. This tool streamlines server setup, handles security hardening, and eliminates common configuration pitfalls.
 
-[![asciicast](https://asciinema.org/a/RqiZy1Mx7dEZzBHD)](https://asciinema.org/a/RqiZy1Mx7dEZzBHD)
+[![asciicast](https://asciinema.org/a/RqiZy1Mx7dEZzBHD.svg)](https://asciinema.org/a/RqiZy1Mx7dEZzBHD)
 
 ## Overview
 
@@ -25,6 +25,11 @@ Setting up a web server manually is error-prone and time-consuming. This script 
 ## How to Use
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/lemp-autoinstall.git](https://github.com/yourusername/lemp-autoinstall.git)
-   cd lemp-setup
+    git clone https://github.com/eggimugi/lemp.git
+    cd lemp
+
+2. **Make the script executable:**
+    chmod +x setup.sh
+
+3. **Run the script:**
+    sudo ./autoinstall.sh
